@@ -60,13 +60,13 @@
 /* Icons */
 .header-v9 .topbar .topbar-block-in li.first-item .icon {
 	/*color: #ff2c2c;*/
-	color: #14bcf7;
+	/*color: #14bcf7;*/
 	font-size: 18px;
 	margin-right: 5px;
 	vertical-align: middle;
 }
 .header-v9 .topbar .topbar-block-in li.second-item {
-	color: #2a2a2a;
+	/*color: #2a2a2a;*/
 	font-size: 13px;
 	font-weight: bold;
 	padding-left: 25px;
@@ -97,7 +97,7 @@
 	padding: 11px 15px;
 }
 .header-v9 .topbar .topbar-social li a:hover {
-	background: #ff1919;
+	/*background: #ff1919;    here*/
 	color: #fff;
 }
 @media (max-width: 992px) {
@@ -155,7 +155,7 @@
 .header-v9 .navbar-nav li a,
 .header-v9 .navbar-nav li a:focus {
 	text-transform: uppercase;
-	color: #C1C1C1;
+	color: #c11C1;
 	/*font-weight: bold;*/
 }
 .header-v9 .navbar-nav li a {
@@ -166,13 +166,13 @@
 .header-v9.navbar-default .navbar-nav > .active > a,
 .header-v9.navbar-default .navbar-nav > .active > a:focus,
 .header-v9.navbar-default .navbar-nav > .active > a:hover {
-  color: #14bcf7;
+  /*color: #14bcf7;*/
   background-color: transparent;
 }
 
 /* On hover and focus */
 .header-v9.navbar-default .navbar-nav > li > a:hover {
-  color:#14bcf7;
+  /*color:#14bcf7;*/
 }
 
 /* The button */

@@ -1,1 +1,94 @@
 /* Add here all your css styles (customizations) */
+
+
+
+.sec{
+	height: 700px;
+
+}
+
+/*--------------------------------------------------
+  [Inicio ]
+----------------------------------------------------*/
+#inicio{
+	opacity: 0.2;
+}
+
+/*--------------------------------------------------
+  [Servicios]
+----------------------------------------------------*/
+#servicios{
+
+}
+
+
+
+
+/*--------------------------------------------------
+  [Membresias ]
+----------------------------------------------------*/
+
+#membresias{
+
+}
+
+
+
+/*--------------------------------------------------
+  [Polizas ]
+----------------------------------------------------*/
+
+#polizas{
+	
+}
+/*--------------------------------------------------
+  [ Cursos]
+----------------------------------------------------*/
+
+#cursos{
+
+}
+
+
+/*--------------------------------------------------
+  [Contácto]
+----------------------------------------------------*/
+#contacto{
+	
+}
+
+
+/*---
+	Pricing
+---*/
+.pricing-v9 {
+	border: 1px solid #eef2f7;
+}
+.pricing-v9:hover {
+	box-shadow: 0 0 15px #ddd;
+}
+.pricing-v9-head {
+	border-bottom: 1px solid #eef2f7;
+}
+.pricing-v9-head h3 {
+	margin: 0;
+}
+.pricing-v9 ul {
+	margin: 0;
+}
+.pricing-v9 li {
+	margin-bottom: 5px;
+}
+.pricing-v9-price,
+.pricing-v9-footer,
+.pricing-v9 ul,
+.pricing-v9-head {
+	padding: 20px 15px;
+}
+.pricing-v9-price,
+.pricing-v9-footer {
+	border-top: 1px solid #eef2f7;
+}
+.pricing-v9-price {
+	font-weight: 500;
+}

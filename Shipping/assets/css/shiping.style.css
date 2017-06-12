@@ -11,7 +11,7 @@ li a {
 }
 
 a {
-  color: #14bcf7;
+  color: #f00;
   text-decoration: none;
 }
 a,
@@ -24,18 +24,18 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-  color:#14bcf7;
+/*  color: #f00;*/
   text-decoration: underline;
 }
 
 /* Default highlight color */
 ::-moz-selection {
   color: #fff;
-  background: #14bcf7;
+  background: #f00;
 }
 ::selection {
   color: #fff;
-  background: #14bcf7;
+  background: #f00;
 }
 
 .btn-u-upper {
@@ -46,7 +46,7 @@ a:hover {
 	font-weight: bold;
 }
 .btn-u.btn-u-default {
-	background: #14bcf7;
+	background: #f00;
 	color: #fff;
 }
 .btn-u.btn-u-default:hover,
@@ -306,7 +306,7 @@ a:hover {
   bottom: 0;
   width: 30px;
   margin-left: 0;
-  border-bottom: 4px solid #14bcf7;
+  border-bottom: 4px solid #f00;
 }
 .g-heading-v11.text-center:after {
   left: 50%;
@@ -613,9 +613,13 @@ a:hover {
 	}
 }
 
+
+
+
+
 .our-services {
 	padding: 85px 0 0;
-	background: url(../img-temp/PeopleImages.com-1310946-zoom.jpg) no-repeat scroll right top / cover;
+	/*background: url(../img-temp/PeopleImages.com-1310946-zoom.jpg) no-repeat scroll right top / cover;*/
 	position: relative;
 	z-index: 1;
 }
@@ -626,11 +630,12 @@ a:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,.6);
+	/*background: rgba(0,0,0,.6);*/
 	z-index: -1;
 }
+
 .service-item .item-in {
-	border: 1px solid rgba(255,255,255,.2);
+	border: 1px solid rgba(0,0,0,.2);
 	border-top: none;
 	position: relative;
 	padding: 40px 20px 30px;
@@ -641,7 +646,7 @@ a:hover {
 .service-item .item-in:before {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.2);
+	/*background: rgba(255,255,255,.2);*/
 	width: 30%;
 	height: 1px;
 	top: 0;
@@ -658,21 +663,32 @@ a:hover {
 	top: -35px;
 	left: 50%;
 	margin-left: -25px;
-	color: #fff;
+	color: #000;
 }
+
+
+
 .service-item .item-in h3 {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
 	margin-bottom: 15px;
+
 }
 .service-item .item-in p {
-	color: rgba(255,255,255,.8);
+	color: rgba(0,0,0,.8);
 }
 .service-item .item-in h3,
 .service-item .item-in .fa {
-	color: #fff;
+	color: #000;
 }
+
+
+
+
+
+
+
 
 
 .skills {
@@ -831,11 +847,11 @@ a:hover {
 }
 .faq .acc-v1 .panel-heading a .tab-icon {
   font-size: 12px;
-  color: #14bcf7;
+  color: #f00;
 }
 .faq .acc-v1 .panel-heading a:hover {
   text-decoration: none;
-  color: #14bcf7;
+  color: #f00;
 }
 .faq .acc-v1.plus-toggle .panel-heading a.collapsed:hover {
 	color: #2c2c2c;
@@ -953,7 +969,7 @@ a:hover {
 }
 .testimonials-v3 .owl-buttons .owl-prev:after,
 .testimonials-v3 .owl-buttons .owl-next:after {
-  /*color: #b8b8b8;*/
+  color: #b8b8b8;
   font-size: 14px;
   top: 9px;
   font-weight: bold;
@@ -966,7 +982,7 @@ a:hover {
 }
 .testimonials-v3 .owl-buttons .owl-prev:hover,
 .testimonials-v3 .owl-buttons .owl-next:hover {
-  /*background: #f00;*/
+  background: #f00;
   transition: none;
 }
 
@@ -1090,7 +1106,7 @@ a:hover {
 }
 
 .sky-form .message i {
-    /*border: 1px solid #ff0000;*/
+    border: 1px solid #ff0000;
 }
 
 .sky-form.submited .message p {
