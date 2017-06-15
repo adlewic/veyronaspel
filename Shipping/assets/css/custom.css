@@ -92,3 +92,96 @@
 .pricing-v9-price {
 	font-weight: 500;
 }
+
+
+/*--------------------------------------------------
+    [11. Good taste]
+---------------------------------------------------- */
+.post {
+	/*max-width: 270px;*/
+	background: #fff;
+	/*margin: 0 auto;*/
+	box-shadow: 2px 2px 2px #f1f1f1;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+/*.post__img {
+	max-height: 200px;
+}*/
+
+.post__child {
+	padding: 30px 25px;
+}
+
+.post__child--cat {
+	font-size: 11px;
+	color: #e6125d;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.post__child--title {
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.post__child--text {
+	color: #bebebe;
+	font-size: 14px;
+}
+
+.post__child--price {
+	font-size: 16px;
+	font-weight: bold;
+	color: #e6125d;
+}
+
+/* Owl Controls */
+.news .owl-theme .owl-controls .owl-buttons div {
+  padding: 15px;
+  color: #e6125d;
+  background: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+
+.news .owl-theme .owl-controls .owl-buttons div:hover {
+  color: #fff;
+  background: #e6125d;
+}
+
+.news .owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 80px;
+}
+
+.news .owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+
+}
+
+.news .owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 5px; /*for the margin value that was added to make room for the box shadow*/
+}
+
+
+/* Container fluids with two different background colors */
+.bg-color-main,
+.container-fluid.bg-color-main {
+	background: #e6125d;
+}
+
+.bg-color-secondary,
+.container-fluid.bg-color-secondary {
+	background: #fbfbfb;
+}
+
+.square{
+	border: 1px solid #ccc;
+}
