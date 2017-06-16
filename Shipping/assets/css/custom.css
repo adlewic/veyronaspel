@@ -2,10 +2,7 @@
 
 
 
-.sec{
-	height: 700px;
 
-}
 
 /*--------------------------------------------------
   [Inicio ]
@@ -185,3 +182,9 @@
 .square{
 	border: 1px solid #ccc;
 }
+
+.section-block{
+	border: 1px solid #ccc;
+}
+
+.col-md-4{}
