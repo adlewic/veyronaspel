@@ -46,12 +46,14 @@ a:hover {
 	font-weight: bold;
 }
 .btn-u.btn-u-default {
-	background: #f00;
+	/*background: #f00;*/
+	background: #7d5daa;
 	color: #fff;
 }
 .btn-u.btn-u-default:hover,
 .btn-u.btn-u-default:focus {
-	background: #bb0707 !important;
+	/*background: #bb0707 !important;*/
+	background:#a58fc4!important;
 	color: #fff !important;
 }
 .btn-u.btn-u-dark {
@@ -306,7 +308,7 @@ a:hover {
   bottom: 0;
   width: 30px;
   margin-left: 0;
-  border-bottom: 4px solid #f00;
+  border-bottom: 4px solid #7d5daa;
 }
 .g-heading-v11.text-center:after {
   left: 50%;
@@ -549,7 +551,7 @@ a:hover {
 /* Hiding the hover text */
 .shiping-type-text p.onhover-p {
 	display: none;
-	color: #fff;
+	
 	opacity: .6;
 	max-width: 70%;
 	margin: 0 auto;
@@ -557,7 +559,11 @@ a:hover {
 
 /* Delivery types Hover effect */
 .shiping-type:hover {
-	background: #fc3030;
+	/*background: #fc3030;*/
+	background: #7f5ea5;
+	background:#ffffff;
+
+
 	transition: all .5s ease-in-out 0s;
 
 }
@@ -575,7 +581,7 @@ a:hover {
 	transition: all .5s ease-in-out 0s;
 }
 .shiping-type:hover .shiping-type-text h3 {
-	color: #fff;
+
 }
 
 /* Hiding the default p */
